@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair:ital,wght@1,300&display=swap');
 
 * {
-    font-family: 'Itim', cursive;
+    font-family: 'Playfair', serif;
 }
 
 *,
@@ -61,12 +60,6 @@ hr {
     color: white;
 }
 
-.seven{
-    width: 70%;
-    margin: 0 auto;
-    text-align: left;
-}
-
 button {
     text-align: center;
     padding: 1rem;
@@ -82,33 +75,4 @@ a {
     text-decoration: none;
     text-: white;
 
-}
-
-table {
-    margin: auto;
-    border: 2px solid black;
-
-
-}
-
-table,
-th,
-td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    font-size: 20px;
-    width: 40%;
-    padding: 10px;
-    text-align: left;
-}
-
-th{
-    font-weight: bold;
-    font-size: 25px;
-}
-
-caption {
-    font-size: 35px;
-    font-weight: bold;
-    padding: 20px
 }
