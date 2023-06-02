@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.jpg" type="image/x-icon">
+    <title>Form</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+
+<body>
+
+    <Main>
+        <h1>Contact Form</h1>
+        <Form class="label-fs">
+
+            <div>
+                <label for="Name" class="label_one">Name:</label>
+                <input type="text" class="label_two" placeholder="Enter your name" required>
+            </div>
+            <div>
+                <label for="username" class="label_one">Username:</label>
+                <input type="text" class="label_two" placeholder="Enter your username" required>
+            </div>
+            <div>
+                <label for="password" class="label_one">Password:</label>
+                <input type="password" class="label_two" placeholder="Enter your password" name="" id="Password"
+                    required>
+
+                <label for="password" class="label_one">Re-type Password:</label>
+                <input type="password" class="label_two" placeholder="Enter your password" name="" id="Password"
+                    required>
+            </div>
+            <div>
+                <label for="gender" class="label_one_one">Gender:</label>
+                <input type="radio" name="gender" value="male" required>
+                <label for="male" class="fontcolor">Male</label>
+
+                <input type="radio" class="space"name="gender" value="female" required>
+                <label for="female" class="fontcolor">Female</label>
+            </div>
+            <div>
+                <label for="Techie Skill" class="label_one_one" required>Techie Skill:</label>
+                <input type="checkbox" class="fontcolor" name="" id="html" required>
+                <label for="html" class="fontcolor">HTML</label>
+
+                <input type="checkbox" class="space" name="" id="css"required >
+                <label for="css" class="fontcolor">CSS</label>
+
+                <input type="checkbox" class="space" name="" id="JavaScript"required>
+                <label for="JavaScript" class="fontcolor">JavaScript</label>
+            </div>
+            <div>
+                <label for="phone number"  class="label_one">Phone Number:</label>
+                <input type="tel" class="label_two" placeholder="Enter your address" name="number" id="number" minlength="11"
+                   inputmode="numeric" maxlength="13" min="0" max="13" required>
+            </div>
+            <div>
+                <label for="email" class="label_one">Email:</label>
+                <input type="email" class="label_two" placeholder="Enter your email" name="" id="email" required>
+            </div>
+            <div>
+                <label for="select" class="label_one">College:</label>
+                <select required class="label_two" >
+                    <option value="" disabled selected>Select a College</option>
+                </select>
+
+
+            </div>
+            <div>
+                <button>Submit</button>
+            </div>
+
+
+        </Form>
+    </Main>
+</body>
+
+</html>
